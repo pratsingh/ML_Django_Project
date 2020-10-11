@@ -1,2 +1,2 @@
-# ML_Django_Project
+# Machine Learning and Django
 Machine Learning + Web
