@@ -8,5 +8,9 @@ The code for the machine learning training can be found [here](https://nbviewer.
 <br>
 First image in the Django REST Framework view.
 <img src="rest_view.png" alt="REST view in Django" width="550px"/>
- Image below is the Predict feature.
+Second image is the Predict feature.
  <img src="./images/predict.png" alt="predict" width="550px"/>
+ Third image shows the A/B test algorithms list.
+ <img src="./images/AB_test_list.png" alt="ABlist" width="550px"/>
+ Fourth image shows result of the A/B test.
+ <img src="./images/AB_finished.png" alt="ABlist" width="550px"/>
