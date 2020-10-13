@@ -11,6 +11,6 @@ First image in the Django REST Framework view.
 Second image is the Predict feature.
  <img src="./images/predict.png" alt="predict" width="550px"/>
  Third image shows the A/B test algorithms list.
- <img src="./images/AB_test_list.png" alt="ABlist" width="550px"/>
+ <img src="./images/AB_test_list.png" alt="ABlist" width="450px"/>
  Fourth image shows result of the A/B test.
  <img src="./images/AB_finished.png" alt="ABlist" width="550px"/>
