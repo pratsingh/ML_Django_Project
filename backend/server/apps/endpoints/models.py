@@ -75,3 +75,25 @@ class MLRequest(models.Model):
     feedback = models.CharField(max_length=10000, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
     parent_mlalgorithm = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE)
+
+class ABTest(models.Model):
+    '''
+    Keeps information about A/B tests that we perform
+
+    Attributes:
+        title: test's title
+        created_by: creator name
+        created_at: data of creation
+        ended_at: data when test is stopped
+        summary: description with summary that is created when test is stopped
+        parent_mlalgorithm_1: 1st MLAlgorithm reference
+        parent_mlalgorithm_2: 2nd MlAlgorithm reference
+    '''
+    title = models.CharField(max_length=10000)
+    created_by = models.CharField(max_length=128)
+    created_at = models.DateTimeField(auto_now_add=True, blank=True)
+    ended_at = models.DateTimeField(blank=True, null=True)
+    summary = models.CharField(max_length=10000, blank=True, null=True)
+
+    parent_mlalgorithm_1 = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE, related_name="parent_mlalgorithm_1")
+    parent_mlalgorithm_2 = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE, related_name="parent_mlalgorithm_2")
