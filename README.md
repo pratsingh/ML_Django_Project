@@ -7,4 +7,4 @@ The code for the machine learning training can be found [here](https://nbviewer.
 
 <br>
 
-<img src="rest_view.jpg" alt="REST view in Django" width="500px"/>
+<img src="rest_view.png" alt="REST view in Django" width="500px"/>
