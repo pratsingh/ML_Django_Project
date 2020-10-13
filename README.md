@@ -7,4 +7,4 @@ The code for the machine learning training can be found [here](https://nbviewer.
 
 <br>
 
-![REST](rest_view.png)
+![REST ](rest_view.png =250x)
