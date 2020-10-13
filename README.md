@@ -6,4 +6,4 @@ The purpose of this project was to build a Machine Learning model that predicts 
 The code for the machine learning training can be found [here](https://nbviewer.jupyter.org/github/pratsingh/ML_Django_Project/blob/main/research/ML.ipynb).
 
 <br>
-![REST framework view in Django](/images/REST framework view.png)
+![REST framework view in Django](https://github.com/pratsingh/ML_Django_Project/blob/main/images/REST%20framework%20view.png)
