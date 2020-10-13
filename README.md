@@ -6,5 +6,7 @@ The purpose of this project was to build a Machine Learning model that predicts 
 The code for the machine learning training can be found [here](https://nbviewer.jupyter.org/github/pratsingh/ML_Django_Project/blob/main/research/ML.ipynb).
 
 <br>
-
+First image in the Django REST Framework view.
 <img src="rest_view.png" alt="REST view in Django" width="550px"/>
+ Image below is the Predict feature.
+ <img src="./images/predict.png" alt="predict" width="550px"/>
